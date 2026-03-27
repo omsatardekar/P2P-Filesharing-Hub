@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body { font-family: Arial; margin: 0; }
+.box { width: 300px; margin: 100px auto; }
+input, button, select { width: 100%; margin-top: 10px; padding: 8px; }
+.dash { display: flex; }
+.sidebar { width: 250px; background: #333; color: white; padding: 10px; }
+.sidebar div { cursor: pointer; padding: 5px; }
+.content { padding: 20px; }
